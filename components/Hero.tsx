@@ -13,7 +13,7 @@ export default function Hero() {
         />
       </div>
       <div className=" mb-4">
-        <h2 className="font-bold">I'm Om -- a Software Developer</h2>
+        <h2 className="font-bold">I&apos;m Om -- a Software Developer</h2>
       </div>
       <div className=" mb-4">
         <h4 className="font-medium">

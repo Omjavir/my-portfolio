@@ -75,7 +75,7 @@ export default function Projects() {
           <CardContent>
             <h4>
               Developed a dynamic and <b>responsive web application</b> for
-              'frest' using <b>React.js</b>, enhancing user engagement and
+              &apos;frest&apos; using <b>React.js</b>, enhancing user engagement and
               experience. Implemented smooth routing with{" "}
               <b>react-router-dom</b> for efficient navigation. Utilized{" "}
               <b>axios</b> for secure <b>HTTP requests</b> and data fetching.
