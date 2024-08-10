@@ -16,6 +16,36 @@ export default function Projects() {
       <div className="flex flex-wrap gap-8 justify-center mt-8">
         <Card className="w-full md:w-[30%]">
           <CardHeader>
+            <CardTitle>Email - Microservice</CardTitle>
+            <CardDescription>Node.js | Nodemailer | Express.js</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <h4>
+              Designed and Developed an <b> email microservice</b> using
+              Node.js, Express.js to automate the sending of dynamic,
+              template-based emails across various microservices, resulting in a
+              <b>40% reduction in manual email handling</b> and enhancing system
+              efficiency. <br />
+              Integrated <b>Nodemailer</b> with Gmail SMTP for secure and
+              efficient email delivery, including{" "}
+              <b>support for CC, BCC, and custom sender aliases.</b> This
+              integration improved email deliverability by 35% leading to a 25%
+              increase in user engagement.
+            </h4>
+          </CardContent>
+          <CardFooter className="flex justify-between">
+            <Link href="https://backend-email-microservice.vercel.app/">
+              <Button variant={"link"}>Live</Button>
+            </Link>
+            <Link
+              href={"https://github.com/Omjavir/backend-email-microservice"}
+            >
+              <Button>Code</Button>
+            </Link>
+          </CardFooter>
+        </Card>
+        <Card className="w-full md:w-[30%]">
+          <CardHeader>
             <CardTitle>Ecommerce Application</CardTitle>
             <CardDescription>MERN stack | Cloudinary | Redux</CardDescription>
           </CardHeader>
@@ -62,33 +92,6 @@ export default function Projects() {
               <Button variant={"outline"}>Video</Button>
             </Link>
             <Link href={"https://github.com/Omjavir/Streaming-Application"}>
-              <Button>Code</Button>
-            </Link>
-          </CardFooter>
-        </Card>
-
-        <Card className="w-full md:w-[30%]">
-          <CardHeader>
-            <CardTitle>Fresh - Juice can</CardTitle>
-            <CardDescription>React.js | Redux | Axios</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <h4>
-              Developed a dynamic and <b>responsive web application</b> for
-              &apos;frest&apos; using <b>React.js</b>, enhancing user engagement and
-              experience. Implemented smooth routing with{" "}
-              <b>react-router-dom</b> for efficient navigation. Utilized{" "}
-              <b>axios</b> for secure <b>HTTP requests</b> and data fetching.
-              Created modular and reusable components for maintainable and
-              scalable code and ptimized performance and user engagement
-              metrics.
-            </h4>
-          </CardContent>
-          <CardFooter className="flex justify-between">
-            <Link href="http://frest-fronend.vercel.app">
-              <Button variant={"link"}>Link</Button>
-            </Link>
-            <Link href={"https://github.com/Omjavir/Frest_frontend"}>
               <Button>Code</Button>
             </Link>
           </CardFooter>
