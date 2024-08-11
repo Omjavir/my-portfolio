@@ -17,10 +17,10 @@ export default function Hero() {
       </div>
       <div className=" mb-4">
         <h4 className="font-medium">
-          I am a software developer with a passion for exploring the
-          ever-evolving landscape of web technologies and Web3. My expertise
-          spans across a diverse set of tools and frameworks, allowing me to
-          craft dynamic and efficient web applications.
+          Passionate for exploring the ever-evolving landscape of web
+          technologies and Web3. My expertise spans across a diverse set of
+          tools and frameworks, allowing me to craft dynamic and efficient web
+          applications.
         </h4>
       </div>
     </div>
