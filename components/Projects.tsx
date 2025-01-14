@@ -28,8 +28,9 @@ export default function Projects() {
               efficiency. <br />
               Integrated <b>Nodemailer</b> with Gmail SMTP for secure and
               efficient email delivery, including{" "}
-              <b>support for CC, BCC, and custom sender aliases.</b> This
-              integration improved email deliverability by 35% leading to a 25%
+              <b>support for CC, BCC, and custom sender aliases.</b>
+               This
+              integration improved email deliverability leading to a 25%
               increase in user engagement.
             </h4>
           </CardContent>
@@ -61,7 +62,7 @@ export default function Projects() {
               <b> processing</b>.
             </h4>
           </CardContent>
-          <CardFooter className="flex justify-between">
+          <CardFooter className="flex justify-between mt-12">
             <Link href={"https://www.youtube.com/watch?v=cPnbUn-4l9U"}>
               <Button variant={"outline"}>Video</Button>
             </Link>
@@ -87,7 +88,7 @@ export default function Projects() {
               performance and user engagement metrics.
             </h4>
           </CardContent>
-          <CardFooter className="flex justify-between">
+          <CardFooter className="flex justify-between mt-16 pt-2">
             <Link href={"https://youtu.be/A9khVQh9n_k"}>
               <Button variant={"outline"}>Video</Button>
             </Link>
@@ -98,11 +99,11 @@ export default function Projects() {
         </Card>
       </div>
 
-      <div className="m-4 p-4 flex justify-center">
+      {/* <div className="m-4 p-4 flex justify-center">
         <Link href={"https://portfolio-omjavir.vercel.app/projects"}>
           <Button variant={"default"}>More Projects ...</Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
