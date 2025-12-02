@@ -14,7 +14,7 @@ export default function Skills() {
         <div className="font-medium">Programming : </div>
         <div className="px-3 flex flex-wrap gap-3">
           <p>
-            <i>C++, JavaScript, TypeScript</i>
+            <i>C++, Java, JavaScript, TypeScript</i>
           </p>
           {/* <TbBrandCpp size={"30px"} />
           <RiJavascriptFill size={"30px"} />
@@ -25,7 +25,7 @@ export default function Skills() {
         <div className="font-medium">Tech Stack : </div>
         <div className="px-3 flex flex-wrap justify-center items-center  gap-3">
           <p>
-            <i>MERN stack, Next.js</i>
+            <i>MERN stack, Next.js, Spring Boot</i>
           </p>
           {/* <RiNextjsFill size={"30px"} />
           <Image alt="Techstack" src={"/image.png"} width={100} height={100} /> */}
@@ -36,7 +36,7 @@ export default function Skills() {
         <div className="font-medium">Database : </div>
         <div className="px-3 flex flex-wrap gap-3">
         <p>
-            <i>MongoDB, MySQL, PostgreSQL, Prisma</i>
+            <i>MongoDB, SQL</i>
           </p>
           {/* <Image alt="Techstack" src={"/image.png"} width={180} height={140} /> */}
           {/* <BiLogoPostgresql size={"30px"} />
@@ -47,7 +47,7 @@ export default function Skills() {
       <div className="flex justify-start items-center m-3">
         <div className="font-medium">Tools : </div>
         <div className="px-3 flex flex-wrap gap-3">
-          <p><i>Git, Docker, AWS</i></p>
+          <p><i>Git, Docker, AWS, Kafka, Redis</i></p>
           {/* <Image alt="Techstack" src={"/image.png"} width={180} height={140} /> */}
           {/* <FaGitAlt size={"30px"} />
           <IoLogoDocker size={"30px"} />

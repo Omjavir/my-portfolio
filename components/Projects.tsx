@@ -16,31 +16,26 @@ export default function Projects() {
       <div className="flex flex-wrap gap-8 justify-center mt-8">
         <Card className="w-full md:w-[30%]">
           <CardHeader>
-            <CardTitle>Email - Microservice</CardTitle>
-            <CardDescription>Node.js | Nodemailer | Express.js</CardDescription>
+            <CardTitle>P2P - File Transfer App</CardTitle>
+            <CardDescription>Node.js | React.js</CardDescription>
           </CardHeader>
           <CardContent>
             <h4>
-              Designed and Developed an <b> email microservice</b> using
-              Node.js, Express.js to automate the sending of dynamic,
-              template-based emails across various microservices, resulting in a
-              <b>40% reduction in manual email handling</b> and enhancing system
-              efficiency. <br />
-              Integrated <b>Nodemailer</b> with Gmail SMTP for secure and
-              efficient email delivery, including{" "}
-              <b>support for CC, BCC, and custom sender aliases.</b>
-               This
-              integration improved email deliverability leading to a 25%
-              increase in user engagement.
+              Built using <b>Node.js, Express, and React.js</b> the application
+              allows users to upload files of any type and generates a unique
+              6-digit share code. Recipients can enter the code to securely
+              preview the file in-browser (PDF, image, video, documents) or
+              download it on demand. The backend implements industry best
+              practices such as a secure <b>CORS layer, Rate Limiting </b> to
+              protect against abuse, and <b>Error Handling</b> to ensure
+              consistent and reliable API responses.
             </h4>
           </CardContent>
           <CardFooter className="flex justify-between">
-            <Link href="https://backend-email-microservice.vercel.app/">
+            {/* <Link href="https://backend-email-microservice.vercel.app/">
               <Button variant={"link"}>Live</Button>
-            </Link>
-            <Link
-              href={"https://github.com/Omjavir/backend-email-microservice"}
-            >
+            </Link> */}
+            <Link href={"https://github.com/Omjavir/P2P"} target="_blank">
               <Button>Code</Button>
             </Link>
           </CardFooter>
@@ -66,7 +61,10 @@ export default function Projects() {
             <Link href={"https://www.youtube.com/watch?v=cPnbUn-4l9U"}>
               <Button variant={"outline"}>Video</Button>
             </Link>
-            <Link href={"https://github.com/Omjavir/ecommerce-server"}>
+            <Link
+              href={"https://github.com/Omjavir/ecommerce-server"}
+              target="_blank"
+            >
               <Button>Code</Button>
             </Link>
           </CardFooter>
@@ -92,7 +90,10 @@ export default function Projects() {
             <Link href={"https://youtu.be/A9khVQh9n_k"}>
               <Button variant={"outline"}>Video</Button>
             </Link>
-            <Link href={"https://github.com/Omjavir/Streaming-Application"}>
+            <Link
+              href={"https://github.com/Omjavir/Streaming-Application"}
+              target="_blank"
+            >
               <Button>Code</Button>
             </Link>
           </CardFooter>
