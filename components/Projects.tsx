@@ -16,26 +16,34 @@ export default function Projects() {
       <div className="flex flex-wrap gap-8 justify-center mt-8">
         <Card className="w-full md:w-[30%]">
           <CardHeader>
-            <CardTitle>P2P - File Transfer App</CardTitle>
-            <CardDescription>Node.js | React.js</CardDescription>
+            <CardTitle>Url Shortener</CardTitle>
+            <CardDescription>
+              Node.js | Apache Kafka | Redis | Docker
+            </CardDescription>
           </CardHeader>
           <CardContent>
             <h4>
-              Built using <b>Node.js, Express, and React.js</b> the application
-              allows users to upload files of any type and generates a unique
-              6-digit share code. Recipients can enter the code to securely
-              preview the file in-browser (PDF, image, video, documents) or
-              download it on demand. The backend implements industry best
-              practices such as a secure <b>CORS layer, Rate Limiting </b> to
-              protect against abuse, and <b>Error Handling</b> to ensure
-              consistent and reliable API responses.
+              Built using
+              <b>Node.js, Express.js, Apache Kafka, Redis, and MongoDB</b>, the
+              application provides a scalable URL shortening service with
+              low-latency redirects and real-time analytics. User redirect
+              events are processed asynchronously using <b>Kafka</b> to ensure
+              non-blocking performance, while
+              <b>Redis</b> is used for high-speed caching, atomic click
+              counters, and distributed rate limiting. The backend follows
+              industry best practices including
+              <b>
+                microservices architecture, fault tolerance, and Docker-based
+                containerization
+              </b>{" "}
+              to support high traffic and production-ready deployment.
             </h4>
           </CardContent>
           <CardFooter className="flex justify-between">
             {/* <Link href="https://backend-email-microservice.vercel.app/">
               <Button variant={"link"}>Live</Button>
             </Link> */}
-            <Link href={"https://github.com/Omjavir/P2P"} target="_blank">
+            <Link href={"https://github.com/Omjavir/Url-Shortening"} target="_blank">
               <Button>Code</Button>
             </Link>
           </CardFooter>
