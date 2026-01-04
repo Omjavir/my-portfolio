@@ -27,7 +27,7 @@ const hi = () => {
               </svg>
             </span>
             <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded">
-              Aug 2024 - Nov 2025
+              Mar 2024 - Dec 2025
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
               Software Developer
@@ -80,7 +80,7 @@ const hi = () => {
               </svg>
             </span>
             <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded">
-              Nov 2023 - Apr 2024
+              Nov 2023 - Jan 2024
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
               Frontend Developer (Internship)
@@ -125,7 +125,7 @@ const hi = () => {
               </svg>
             </span>
             <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded">
-              July 2021 - Feb 2022
+              Jul 2021 - Feb 2022
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
               Frontend Developer (Internship)
