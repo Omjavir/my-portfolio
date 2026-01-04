@@ -14,7 +14,7 @@ export default function Skills() {
         <div className="font-medium">Programming : </div>
         <div className="px-3 flex flex-wrap gap-3">
           <p>
-            <i>C++, Java, JavaScript, TypeScript</i>
+            <i>C++, JavaScript, Java, TypeScript, HTML, CSS</i>
           </p>
           {/* <TbBrandCpp size={"30px"} />
           <RiJavascriptFill size={"30px"} />
@@ -22,10 +22,10 @@ export default function Skills() {
         </div>
       </div>
       <div className="flex justify-start items-center m-3">
-        <div className="font-medium">Tech Stack : </div>
+        <div className="font-medium">Technologies & Libraries : </div>
         <div className="px-3 flex flex-wrap justify-center items-center  gap-3">
           <p>
-            <i>MERN stack, Next.js, Spring Boot</i>
+            <i>Node.js, React.js, Next.js, Spring Boot, Redis, Apache Kafka</i>
           </p>
           {/* <RiNextjsFill size={"30px"} />
           <Image alt="Techstack" src={"/image.png"} width={100} height={100} /> */}
