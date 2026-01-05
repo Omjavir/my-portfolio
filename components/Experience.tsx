@@ -27,7 +27,7 @@ const hi = () => {
               </svg>
             </span>
             <time className="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded">
-              Mar 2024 - Dec 2025
+              Aug 2024 - Oct 2025
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
               Software Developer
