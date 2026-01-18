@@ -30,7 +30,7 @@ const hi = () => {
               Aug 2024 - Oct 2025
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
-              Software Developer
+              Web Developer | CruxBytes Consultancy Services
             </h3>
             <ul className="ms-5">
               <li className="list-disc pb-1">
@@ -83,7 +83,7 @@ const hi = () => {
               Nov 2023 - Jan 2024
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
-              Frontend Developer (Internship)
+              Frontend Developer (Internship) | Connectia Technology
             </h3>
             <ul className="ms-5">
               <li className="list-disc pb-1">
@@ -128,7 +128,7 @@ const hi = () => {
               Jul 2021 - Feb 2022
             </time>
             <h3 className="my-2 text-lg font-semibold text-heading">
-              Frontend Developer (Internship)
+              Frontend Developer (Internship) | DevTown
             </h3>
             <ul className="ms-5">
               <li className="list-disc pb-1">

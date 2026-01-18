@@ -16,7 +16,7 @@ export default function Projects() {
       <div className="flex flex-wrap gap-8 justify-center mt-8">
         <Card className="w-full md:w-[30%]">
           <CardHeader>
-            <CardTitle>Url Shortener</CardTitle>
+            <CardTitle>URL Shortener</CardTitle>
             <CardDescription>
               Node.js | Apache Kafka | Redis | Docker
             </CardDescription>
